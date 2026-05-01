@@ -1,0 +1,37 @@
+{
+  "name" : "Pretius Emit IG Refresh Events",
+  "version" : "24.2.1",
+  "description" : "Emits Interactive Grid before/after refresh events",
+  "keywords" : ["ig", "interactive grid", "refresh", "before refresh", "after refresh", "pretius"],
+  "homepage" : "https://github.com/pretius/pretius-apex-emit-ig-refresh-events",
+  "bugs" : {
+    "url" : "https://github.com/pretius/pretius-apex-emit-ig-refresh-events/issues",
+    "email" : "mmulvaney@pretius.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "commercially_supported": "No",
+  "author" : {
+    "name" : "Matt Mulvaney",
+    "email" : "mmulvaney@pretius.com",
+    "url" : "https://pretius.com/blog/",
+    "twitter" : "Matt_Mulvaney",
+    "donationUrl" : "https://donate.saintmichaelshospice.org/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/pretius/pretius-apex-emit-ig-refresh-events.git"
+  },
+ "oracle" : {
+    "versions" : ["19.2.0.1"],
+    "apex" : {
+      "versions" : ["24.2.0"],
+      "plugin" : {
+        "internalName" : "PRETIUS_APEX_EMIT_IG_REFRESH_EVENTS",
+        "type" : "dynamic action",
+        "demo" : "https://github.com/pretius/pretius-apex-emit-ig-refresh-events",
+        "previewImage" : "https://raw.githubusercontent.com/pretius/pretius-apex-emit-ig-refresh-events/master/assets/preview.gif"
+      }
+    }
+  }
+}
